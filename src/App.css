@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+.appBarLink {
+  text-decoration: none;
+}
+.appBar {
+  background-color: black;
+}
+.stackOfCities {
+  text-align: center;
+}
+.Cities {
+  background-color: lightgray;
+  text-align: left;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.citiesLink {
+  text-decoration: none;
+  color: black;
+}
+.citiesLink:hover {
+  font-size: 25.3px;
+}
+.tableLink {
+  text-decoration: none;
+  color: black;
+}
+
+.btnLog {
+  background-color: white;
+}
