@@ -10,11 +10,13 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index={true} element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="city/:year/:city_id" element={<City />} />
-          <Route
-            path="city/:year/:city_id/university-info/:university_id"
-            element={<UniversityInfo />}
-          />
+          <Route path="city/:year/:city_id">
+            <Route path="" element={<City />} />
+            <Route
+              path="university-info/:university_id"
+              element={<UniversityInfo />}
+            />
+          </Route>
           <Route path="not-found" element={<PageNotFound />} />
         </Route>
         <Route path="*" element={<Navigate to="/not-found" replace />} />
