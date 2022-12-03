@@ -1,4 +1,5 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { PageNotFound } from "./components/404";
 import { MainLayout } from "./components/layouts";
 import { About, City, Home, UniversityInfo } from "./pages";
 
@@ -14,7 +15,9 @@ function App() {
             path="city/:year/:city_id/university-info/:university_id"
             element={<UniversityInfo />}
           />
+          <Route path="not-found" element={<PageNotFound />} />
         </Route>
+        <Route path="*" element={<Navigate to="/not-found" replace />} />
       </Routes>
     </BrowserRouter>
   );
