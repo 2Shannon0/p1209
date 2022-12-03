@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "city_id": "moskow",
+            "name": "Москва",
+            "university_number": 31,
+            "abiturients_number": 7893
+        },{
+            "city_id": "piter",
+            "name": "Санкт-Петербург",
+            "university_number": 32,
+            "abiturients_number": 3564
+        },{
+            "city_id": "novosibirsk",
+            "name": "Новосибирск",
+            "university_number": 35,
+            "abiturients_number": 36777
+        },{
+            "city_id": "kostroma",
+            "name": "Кострома",
+            "university_number": 37,
+            "abiturients_number": 312
+        }
+    ]
+}

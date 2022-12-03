@@ -1,0 +1,42 @@
+{
+    "title": "ВУЗы Москвы",
+    "data": [
+        {
+            "university_id": "hse",
+            "name": "ВШЭ",
+            "abiturients_number": 33,
+            "commercial_places": 31,
+            "budget_places": 32,
+            "bvi": 31,
+            "target_places": 31,
+            "quota_places": 31,
+            "special_quota_places": 31,
+            "kcp": 31,
+            "applications": 7893
+        },{
+            "university_id": "mai",
+            "name": "МАИ",
+            "abiturients_number": 33,
+            "commercial_places": 31,
+            "budget_places": 32,
+            "bvi": 31,
+            "target_places": 31,
+            "quota_places": 31,
+            "special_quota_places": 31,
+            "kcp": 31,
+            "applications": 7893
+        },{
+            "university_id": "mifi",
+            "name": "НИЯУ МИФИ",
+            "abiturients_number": 33,
+            "commercial_places": 31,
+            "budget_places": 32,
+            "bvi": 31,
+            "target_places": 31,
+            "quota_places": 31,
+            "special_quota_places": 31,
+            "kcp": 31,
+            "applications": 7893
+        }
+    ]
+}
