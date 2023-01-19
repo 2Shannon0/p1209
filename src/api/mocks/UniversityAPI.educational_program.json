@@ -1,0 +1,87 @@
+{
+  "update_time": "12:03:45, 23.07.2022",
+  "university": { "name": "ВШЭ", "id": "hse" },
+  "educational_program": { "name": "ИТСС", "id": "itss" },
+  "exams": [
+    {
+      "name": "Русский язык"
+    },
+    {
+      "name": "Математика"
+    },
+    {
+      "name": "Физика"
+    }
+  ],
+  "data": [
+    {
+      "place": "1",
+      "snils": "123-321-43 22",
+      "summ": 256,
+      "is_original": true,
+      "considerations": [
+        {
+          "title": "ВШЭ, 09.03.01 ИВТ (22/100, ОК)"
+        },
+        {
+          "title": "МИСИС, 01.03.02 ПМИ (45/110, ОК)"
+        },
+        {
+          "title": "МАИ, 09.03.01 ИВТ (4/100, БВИ)"
+        }
+      ],
+      "exam_scores": [
+        {
+          "name": "Русский язык",
+          "score": 55
+        },
+        {
+          "name": "Математика",
+          "score": 56
+        },
+        {
+          "name": "Физика",
+          "score": 65
+        }
+      ]
+    },
+    {
+      "place": "2",
+      "snils": "876-312-43 22",
+      "summ": 123,
+      "is_original": false,
+      "considerations": [
+        {
+          "title": "ВШЭ, 09.03.01 ИВТ (22/100, ОК)"
+        }
+      ],
+      "exam_scores": [
+        {
+          "name": "Русский язык",
+          "score": 55
+        },
+        {
+          "name": "Математика",
+          "score": 56
+        }
+      ]
+    },
+    {
+      "place": "3",
+      "snils": "657-312-14 78",
+      "summ": 321,
+      "is_original": false,
+      "considerations": [],
+      "exam_scores": [
+        {
+          "name": "Русский язык",
+          "score": 95
+        },
+        {
+          "name": "Математика",
+          "score": 98
+        }
+      ]
+    }
+  ]
+}
