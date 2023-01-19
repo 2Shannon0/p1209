@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/399.1d407cef.chunk.js","mappings":"uHAIA,UAJc,WACZ,OAAO,iCACT,C","sources":["pages/about/About.tsx"],"sourcesContent":["const About = () => {\r\n  return <h1>About</h1>;\r\n};\r\n\r\nexport default About;\r\n"],"names":[],"sourceRoot":""}
