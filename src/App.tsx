@@ -5,7 +5,7 @@ import { About, City, EducationalProgram, Home, UniversityInfo } from "./pages";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="front">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index={true} element={<Home />} />
