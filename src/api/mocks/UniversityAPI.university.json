@@ -1,0 +1,47 @@
+{
+  "university_name": "ВШЭ",
+  "data": [
+    {
+      "program_id": "pmi",
+      "name": "ПМИ",
+      "applications": 4500,
+      "abiturients_number": 1500,
+      "budget_places": 3500,
+      "commercial_places": 2400,
+      "consents_number": 250,
+      "op": 0,
+      "target_places": 50,
+      "bvi": 50,
+      "ok": 4400,
+      "kcp": 2500
+    },
+    {
+      "program_id": "pm",
+      "name": "ПМ",
+      "applications": 4500,
+      "abiturients_number": 1500,
+      "budget_places": 3500,
+      "commercial_places": 2400,
+      "consents_number": 250,
+      "op": 0,
+      "target_places": 50,
+      "bvi": 50,
+      "ok": 4400,
+      "kcp": 2500
+    },
+    {
+      "program_id": "ivt",
+      "name": "ИВТ",
+      "applications": 4500,
+      "abiturients_number": 1500,
+      "budget_places": 3500,
+      "commercial_places": 2400,
+      "consents_number": 250,
+      "op": 0,
+      "target_places": 50,
+      "bvi": 50,
+      "ok": 4400,
+      "kcp": 2500
+    }
+  ]
+}
