@@ -1,7 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { PageNotFound } from "./components/404";
 import { MainLayout } from "./components/layouts";
-import { About, City, EducationalProgram, Home, UniversityInfo } from "./pages";
+import { About, City, Home, UniversityInfo } from "./pages";
 
 function App() {
   return (
@@ -12,13 +12,10 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="city/:year/:city_id">
             <Route path="" element={<City />} />
-            <Route path="university-info/:university_id">
-              <Route path="" element={<UniversityInfo />} />
-              <Route
-                path="educational-program/:educational_program_id"
-                element={<EducationalProgram />}
-              />
-            </Route>
+            <Route
+              path="university-info/:university_id"
+              element={<UniversityInfo />}
+            />
           </Route>
           <Route path="not-found" element={<PageNotFound />} />
         </Route>

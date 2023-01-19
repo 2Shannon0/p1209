@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import TableCell from "@mui/material/TableCell";
@@ -8,7 +8,6 @@ import { Table, TableRow } from "../../components/table";
 import { useTransition } from "../../hooks/useTransition/useTransition";
 import { CircularProgress } from "../../components/progress";
 import { usePageParams } from "./UniversityInfo.hooks";
-import { generatePath, useNavigate } from "react-router-dom";
 
 const COLUMNS = [
   {
@@ -57,17 +56,6 @@ const UniversityInfo = () => {
   );
   const universities = data?.data;
 
-  const navigate = useNavigate();
-  const clickHandler = useCallback(
-    (id: string) => () => {
-      navigate(
-        generatePath(`educational-program/${id}`, {
-          id: id,
-        })
-      );
-    },
-    []
-  );
   return (
     <React.Fragment>
       <Container maxWidth="xl">
@@ -77,10 +65,7 @@ const UniversityInfo = () => {
           ) : universities && universities.length > 0 ? (
             <Table COLUMNS={COLUMNS} title={data.university_name}>
               {universities.map((el) => (
-                <TableRow
-                  key={el.program_id}
-                  onClick={clickHandler(el.program_id)}
-                >
+                <TableRow key={el.program_id}>
                   <TableCell>{el.name}</TableCell>
                   <TableCell>{el.kcp}</TableCell>
                   <TableCell>{el.applications}</TableCell>
