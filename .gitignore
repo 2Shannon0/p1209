@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# production - disabled only for 'prod' branch
+# /build
 
 # misc
 .DS_Store
