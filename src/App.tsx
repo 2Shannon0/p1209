@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { MainLayout } from './components/layouts';
-import { About, City, Home, UniversityInfo, EduProgramInfo } from './pages';
-import AuthPage from './pages/auth-page/auth-page';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { MainLayout } from "./components/layouts";
+import { About, City, Home, UniversityInfo, EduProgramInfo } from "./pages";
+import AuthPage from "./pages/auth-page/auth-page";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="front">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index={true} element={<Home />} />
